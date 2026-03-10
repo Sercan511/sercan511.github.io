@@ -744,6 +744,51 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Feedback Form -->
+            <div class="feedback-form-wrapper animate-on-scroll">
+                <div class="feedback-form-header">
+                    <h3>✍️ Gib mir <span class="gradient-text">Feedback</span></h3>
+                    <p>Hast du mein Portfolio angesehen? Schreib mir deine Meinung!</p>
+                </div>
+                <form action="https://formsubmit.co/mehmetsitem49@gmail.com" method="POST" class="feedback-form" id="feedbackForm">
+                    <!-- FormSubmit settings -->
+                    <input type="hidden" name="_subject" value="Neues Feedback für dein Portfolio!">
+                    <input type="hidden" name="_captcha" value="true">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_next" value="https://sercan-portfolio.surge.sh/index.html#feedback">
+                    <input type="text" name="_honey" style="display:none">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fbName">Dein Name</label>
+                            <input type="text" id="fbName" name="name" placeholder="z.B. Anna Meier" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fbRole">Deine Rolle</label>
+                            <select id="fbRole" name="role" required>
+                                <option value="" disabled selected>Bitte wählen...</option>
+                                <option value="Lehrperson">🏫 Lehrperson</option>
+                                <option value="Berufsbildner/in">🏭 Berufsbildner/in</option>
+                                <option value="Mitschüler/in">🧑‍🤝‍🧑 Mitschüler/in</option>
+                                <option value="Familie">👨‍👩‍👦 Familie</option>
+                                <option value="Andere">✨ Andere</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="fbMessage">Deine Nachricht</label>
+                        <textarea id="fbMessage" name="message" placeholder="Was möchtest du mir sagen?" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="feedback-submit-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                        Feedback senden
+                    </button>
+                </form>
+            </div>
         </div>
     </section>
 
