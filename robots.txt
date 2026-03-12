@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sercan511.github.io/sercan-portfolio/sitemap.xml
+Sitemap: https://sercan511.github.io/sitemap.xml
