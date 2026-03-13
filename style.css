@@ -1213,6 +1213,65 @@ body {
     color: #ffaa32;
 }
 
+/* Deutsch Panel — 2 column layout with photo */
+.panel-grid-deutsch {
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.panel-right-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.panel-photo {
+    border-color: rgba(108, 60, 224, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.panel-photo h4 {
+    color: var(--primary-light);
+    margin-bottom: 14px;
+}
+
+.panel-photo-frame {
+    position: relative;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(108, 60, 224, 0.2);
+    border: 2px solid rgba(108, 60, 224, 0.15);
+    transition: var(--transition);
+}
+
+.panel-photo-frame:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(108, 60, 224, 0.35);
+    border-color: rgba(108, 60, 224, 0.4);
+}
+
+.panel-photo-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-sm);
+}
+
+.panel-photo-caption {
+    margin-top: 12px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .panel-grid-deutsch {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Progress Ring */
 .fach-progress {
     display: flex;
