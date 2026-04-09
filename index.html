@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sercan — Mein Portfolio</title>
+    <meta name="description"
+        content="Sercan's Portfolio – IBA Schüler in Cham. Mein schulischer Fortschritt, meine Ziele und mein Weg zum Anlagenführer EFZ bei V-Zug.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap">
+    </noscript>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>"
+        type="image/svg+xml">
+    <meta property="og:title" content="Sercan — Mein Portfolio">
+    <meta property="og:description"
+        content="Portfolio von Sercan – IBA Schüler in Cham. Mein Weg zum Anlagenführer EFZ bei V-Zug.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sercan511.github.io/">
+    <meta property="og:image" content="https://sercan511.github.io/images/profile.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ====== NAVIGATION ====== -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Hauptnavigation">
+        <div class="nav-brand">
+            <span class="brand-icon">◆</span>
+            <span class="brand-text">Sercan</span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" class="nav-link active" data-section="hero">Startseite</a></li>
+            <li><a href="#ziele" class="nav-link" data-section="ziele">Meine Ziele</a></li>
+            <li><a href="#lernen" class="nav-link" data-section="lernen">Lernprozess</a></li>
+            <li><a href="#beruf" class="nav-link" data-section="beruf">Berufswahl</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ====== HERO / WER BIN ICH ====== -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting animate-on-scroll">👋</p>
+                <h1 class="hero-title animate-on-scroll" id="hero-title">
+                    <span class="line">Wer bin</span>
+                    <span class="line gradient-text">ich?</span>
+                </h1>
+                <div class="hero-info animate-on-scroll">
+                    <div class="info-card">
+                        <span class="info-label">Name</span>
+                        <span class="info-value">Sercan</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-label">Alter</span>
+                        <span class="info-value">17 Jahre</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-label">Aktuell</span>
+                        <span class="info-value">IBA Schüler</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-label">Wohnort</span>
+                        <span class="info-value">Cham</span>
+                    </div>
+                </div>
+                <p class="hero-description animate-on-scroll">
+                    Ich bin Sercan, 17 Jahre alt und komme aus Kurdistan. Ich lebe in Cham und gehe in die IBA.
+                    In der Schule arbeite ich an meinen Zielen und lerne jeden Tag etwas Neues.
+                    Bald beginne ich meine Lehre als Anlagenführer EFZ bei V-Zug.
+                </p>
+                <div class="hero-tags animate-on-scroll">
+                    <span class="tag">📚 IBA Schüler</span>
+                    <span class="tag">🎯 Zielorientiert</span>
+                    <span class="tag">💻 IT-begeistert</span>
+                    <span class="tag">🤝 Teamfähig</span>
+                </div>
+                <div class="hero-motto animate-on-scroll">
+                    <div class="motto-line"></div>
+                    <p class="motto-text">„Jeden Tag ein Schritt weiter — mein Weg, mein Ziel."</p>
+                </div>
+            </div>
+            <div class="hero-image animate-on-scroll">
+                <div class="image-frame">
+                    <img src="images/profile.jpg" alt="Sercan - Profilbild" class="profile-img" loading="lazy"
+                        decoding="async" width="350" height="420">
+                    <div class="image-glow"></div>
+                </div>
+                <div class="floating-badge badge-1">
+                    <span>💻</span>
+                    <span>Fleissig</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <span>🎯</span>
+                    <span>Sportler</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Nach unten scrollen</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ====== LERNPROZESS ====== -->
+    <section class="section section-lernen" id="lernen" aria-labelledby="lernen-title">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">01</span>
+                <h2 class="section-title" id="lernen-title">Was habe ich <span class="gradient-text">gelernt?</span>
+                </h2>
+                <p class="section-subtitle">Klicke auf ein Fach um Details zu sehen</p>
+            </div>
+
+            <!-- Subject Buttons -->
+            <div class="fach-buttons animate-on-scroll" role="tablist" aria-label="Fächer">
+                <button class="fach-btn active" data-fach="deutsch" role="tab" aria-selected="true"
+                    aria-controls="panel-deutsch">
+                    <span class="fach-btn-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                            <line x1="9" y1="9" x2="15" y2="9" />
+                            <line x1="9" y1="13" x2="13" y2="13" />
+                        </svg>
+                    </span>
+                    <span class="fach-btn-name">Deutsch</span>
+                    <span class="fach-btn-level">B1</span>
+                </button>
+                <button class="fach-btn" data-fach="mathe" role="tab" aria-selected="false" aria-controls="panel-mathe">
+                    <span class="fach-btn-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="4" y="2" width="16" height="20" rx="2" />
+                            <line x1="8" y1="6" x2="16" y2="6" />
+                            <line x1="12" y1="10" x2="12" y2="18" />
+                            <line x1="8" y1="14" x2="16" y2="14" />
+                        </svg>
+                    </span>
+                    <span class="fach-btn-name">Mathematik</span>
+                    <span class="fach-btn-level">Gut</span>
+                </button>
+                <button class="fach-btn" data-fach="abu" role="tab" aria-selected="false" aria-controls="panel-abu">
+                    <span class="fach-btn-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+                        </svg>
+                    </span>
+                    <span class="fach-btn-name">ABU</span>
+                    <span class="fach-btn-level">Gut</span>
+                </button>
+                <button class="fach-btn" data-fach="ict" role="tab" aria-selected="false" aria-controls="panel-ict">
+                    <span class="fach-btn-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </span>
+                    <span class="fach-btn-name">ICT</span>
+                    <span class="fach-btn-level">Sehr gut</span>
+                </button>
+                <button class="fach-btn" data-fach="englisch" role="tab" aria-selected="false"
+                    aria-controls="panel-englisch">
+                    <span class="fach-btn-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                            <line x1="9" y1="8" x2="15" y2="8" />
+                            <line x1="9" y1="12" x2="14" y2="12" />
+                        </svg>
+                    </span>
+                    <span class="fach-btn-name">Englisch</span>
+                    <span class="fach-btn-level">A2-B1</span>
+                </button>
+            </div>
+
+            <!-- Detail Panels -->
+            <div class="fach-panels">
+                <!-- DEUTSCH -->
+                <div class="fach-panel active" id="panel-deutsch" role="tabpanel" aria-labelledby="tab-deutsch">
+                    <div class="panel-header">
+                        <h3>🇩🇪🇨🇭 Deutsch — Niveau B1</h3>
+                        <div class="panel-progress-bar">
+                            <div class="panel-progress-fill" style="width: 60%"></div>
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="panel-grid panel-grid-deutsch">
+                        <div class="panel-box panel-learned">
+                            <h4>✅ Was habe ich gelernt? (Grammatik & B1-Training)</h4>
+                            <ul>
+                                <li><strong>Sprachbausteine (B1-Prüfungstraining):</strong> Lücken im Text mit den richtigen Wörtern füllen — Präpositionen, Konjunktionen und Verbformen im Kontext richtig einsetzen</li>
+                                <li><strong>Konjunktiv II im Präsens:</strong> Wünsche und Träume ausdrücken („Ich würde gerne..."), Bedingungen formulieren („Wenn..., dann..."), höfliche Bitten stellen („Könntest du...?") und Empfehlungen geben („Du solltest...")</li>
+                                <li><strong>Direkte & indirekte Fragesätze:</strong> Direkte Fragen bilden (z.B. „Was hast du gemacht?") und indirekte, höflichere Fragen mit „ob", „was", „wann", „wo" formulieren — dabei steht das Verb am Ende des Nebensatzes</li>
+                                <li><strong>Genitiv (Zugehörigkeit):</strong> Besitz und Zugehörigkeit ausdrücken (z.B. „unseres Lebens"), Adjektivendungen im Genitiv (meist -en), und den Unterschied zwischen „von + Dativ" (Umgangssprache) und Genitiv (formelle Schriftsprache) verstehen</li>
+                            </ul>
+                        </div>
+                        <div class="panel-right-col">
+                            <div class="panel-box panel-improve">
+                                <h4>🔄 Was ich noch schaffen möchte</h4>
+                                <ul>
+                                    <li>B1-Zertifikat erfolgreich bestehen</li>
+                                    <li>Die gelernte Grammatik im Alltag und Beruf sicher anwenden</li>
+                                    <li>Mehr Fachwörter für die Lehre als Anlagenführer lernen</li>
+                                    <li>Sicherheit im freien Sprechen weiter verbessern</li>
+                                </ul>
+                            </div>
+                            <div class="panel-box panel-photo">
+                                <h4>📸 Aus meinem Unterricht</h4>
+                                <div class="panel-photo-frame">
+                                    <img src="images/917f9537-ff45-43ba-8d4b-28c004a6741d.jpg" alt="Grammatik-Notizen — Nomen und Adjektive im Genitiv" loading="lazy" decoding="async">
+                                </div>
+                                <p class="panel-photo-caption">Nomen und Adjektive im Genitiv</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MATHEMATIK -->
+                <div class="fach-panel" id="panel-mathe" role="tabpanel" aria-labelledby="tab-mathe" aria-hidden="true">
+                    <div class="panel-header">
+                        <h3>🔢 Mathematik — Fortschritt: Gut</h3>
+                        <div class="panel-progress-bar">
+                            <div class="panel-progress-fill" style="width: 60%"></div>
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="panel-grid">
+                        <div class="panel-box panel-learned">
+                            <h4>✅ Was habe ich gelernt? (Grundlagen & Aufbau)</h4>
+                            <ul>
+                                <li><strong>Ganze Zahlen:</strong> Zahlen darstellen & ordnen, Addieren, Subtrahieren, Multiplizieren, Dividieren, natürl. Zahlen, Teilbarkeit & Primzahlen</li>
+                                <li><strong>Gebrochene Zahlen:</strong> Anteile, Brüche, Prozent, Dezimalzahlen, Prozentrechnen, Erweiterung des Zahlenbereichs</li>
+                                <li><strong>Grösse und Masse:</strong> Grössen umwandeln und mit ihnen rechnen, natürl. Zahlen und Grössen</li>
+                                <li><strong>Geometrie und Ebene:</strong> Grundlagen der Geometrie, Flächeninhalte und Umfänge</li>
+                            </ul>
+                        </div>
+                        <div class="panel-box panel-improve">
+                            <h4>🔄 Was ich noch schaffen möchte (Expert)</h4>
+                            <ul>
+                                <li><strong>Zahlen:</strong> Quadratwurzeln mit reellen Zahlen</li>
+                                <li><strong>Geometrie und Raum:</strong> Oberflächen- und Volumenberechnungen (Würfel, Quader, Körper)</li>
+                                <li><strong>Geometrie und Ebene:</strong> Kreise, Winkel, Satzgruppe des Pythagoras</li>
+                                <li><strong>Algebra:</strong> Terme, lineare Gleichungen, Rechnen mit Termen, Quadratische Funktionen</li>
+                                <li><strong>Zusammenhänge:</strong> Daten, Häufigkeiten, Zuordnungen, Wahrscheinlichkeit</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABU -->
+                <div class="fach-panel" id="panel-abu" role="tabpanel" aria-labelledby="tab-abu" aria-hidden="true">
+                    <div class="panel-header">
+                        <h3>🌍 ABU (Allgemeinbildung) — Fortschritt: Gut</h3>
+                        <div class="panel-progress-bar">
+                            <div class="panel-progress-fill" style="width: 65%"></div>
+                            <span>65%</span>
+                        </div>
+                    </div>
+                    <div class="panel-grid">
+                        <div class="panel-box panel-learned">
+                            <h4>✅ Was habe ich gelernt?</h4>
+                            <ul>
+                                <li>Das politische System der Schweiz</li>
+                                <li>Über aktuelle Themen sprechen</li>
+                                <li>Meine Meinung aufschreiben</li>
+                                <li>Rechte und Pflichten kennen</li>
+                                <li>Versicherungen und Budget verstehen</li>
+                            </ul>
+                        </div>
+                        <div class="panel-box panel-progress">
+                            <h4>📈 Wie habe ich mich entwickelt?</h4>
+                            <ul>
+                                <li>Ich verstehe Politik jetzt besser</li>
+                                <li>Ich verstehe die Wirtschaft besser</li>
+                                <li>Ich weiss mehr über die Nachrichten</li>
+                                <li>Ich kann meine Meinung gut erklären</li>
+                            </ul>
+                        </div>
+                        <div class="panel-box panel-improve">
+                            <h4>🔄 Was ich noch schaffen möchte</h4>
+                            <ul>
+                                <li>Mehr über Wirtschaft lernen</li>
+                                <li>Mehr Nachrichten verfolgen</li>
+                                <li>Besser argumentieren lernen</li>
+                                <li>Steuern und Finanzen besser verstehen</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ICT -->
+                <div class="fach-panel" id="panel-ict" role="tabpanel" aria-labelledby="tab-ict" aria-hidden="true">
+                    <div class="panel-header">
+                        <h3>💻 ICT — Fortschritt: Sehr gut</h3>
+                        <div class="panel-progress-bar">
+                            <div class="panel-progress-fill" style="width: 80%"></div>
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="panel-grid">
+                        <div class="panel-box panel-learned">
+                            <h4>✅ Was habe ich gelernt?</h4>
+                            <ul>
+                                <li>Schwierige Excel-Tabellen erstellen</li>
+                                <li>Word-Dokumente gut formatieren</li>
+                                <li>PowerPoint-Präsentationen gestalten</li>
+                                <li>E-Mails und Internetrecherche</li>
+                                <li>Dateien ordnen und Cloud nutzen</li>
+                            </ul>
+                        </div>
+                        <div class="panel-box panel-progress">
+                            <h4>📈 Wie habe ich mich entwickelt?</h4>
+                            <ul>
+                                <li>Ich arbeite jetzt schnell am Computer</li>
+                                <li>Office-Programme gut benutzen</li>
+                                <li>Ich kann Probleme alleine lösen</li>
+                                <li>Ich verstehe IT-Sicherheit und Datenschutz</li>
+                            </ul>
+                        </div>
+                        <div class="panel-box panel-improve">
+                            <h4>🔄 Was ich noch schaffen möchte</h4>
+                            <ul>
+                                <li>Mehr Excel-Formeln lernen</li>
+                                <li>Datenbanken verstehen</li>
+                                <li>IT bei der Arbeit nutzen</li>
+                                <li>Neue Programme schneller lernen</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ENGLISCH -->
+                <div class="fach-panel" id="panel-englisch" role="tabpanel" aria-labelledby="tab-englisch"
+                    aria-hidden="true">
+                    <div class="panel-header">
+                        <h3>🇬🇧 Englisch — Niveau A2-B1</h3>
+                        <div class="panel-progress-bar">
+                            <div class="panel-progress-fill" style="width: 50%"></div>
+                            <span>50%</span>
+                        </div>
+                    </div>
+                    <div class="panel-grid">
+                        <div class="panel-box panel-learned">
+                            <h4>✅ Was habe ich gelernt?</h4>
+                            <ul>
+                                <li>Einfache Texte auf Englisch lesen</li>
+                                <li>Kurze Gespräche führen</li>
+                                <li>Einfache Grammatik verstehen</li>
+                                <li>Einfache E-Mails schreiben</li>
+                                <li>Englische Medien verstehen</li>
+                            </ul>
+                        </div>
+                        <div class="panel-box panel-progress">
+                            <h4>📈 Wie habe ich mich entwickelt?</h4>
+                            <ul>
+                                <li>Ich verstehe Englisch besser beim Hören</li>
+                                <li>Ich kann einfache Sätze selbst bilden</li>
+                                <li>Ich lerne immer mehr Wörter</li>
+                                <li>Verstehe englische Videos besser</li>
+                            </ul>
+                        </div>
+                        <div class="panel-box panel-improve">
+                            <h4>🔄 Was ich noch schaffen möchte</h4>
+                            <ul>
+                                <li>Besser sprechen und Aussprache üben</li>
+                                <li>Schwierigere Grammatik lernen</li>
+                                <li>Mehr Wörter lernen</li>
+                                <li>Längere Texte schreiben</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== BERUFSWAHL ====== -->
+    <section class="section section-beruf" id="beruf" aria-labelledby="beruf-title">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">02</span>
+                <h2 class="section-title" id="beruf-title">Meine <span class="gradient-text">Berufswahl</span></h2>
+                <p class="section-subtitle">Mein Weg zur richtigen Karriere</p>
+            </div>
+
+            <!-- Timeline -->
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">IBA-Zeit</span>
+                        <h3>Mehrere Schnupperlehren absolviert</h3>
+                        <p>In meiner IBA-Zeit habe ich verschiedene Schnupperlehren gemacht.
+                            So konnte ich verschiedene Berufe kennenlernen.</p>
+                        <div class="timeline-tags">
+                            <span>🔧 Schnupperlehre</span>
+                            <span>🔍 Berufserkundung</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">IBA-Zeit</span>
+                        <h3>Schnupperberichte erstellt</h3>
+                        <p>Für jede Schnupperlehre habe ich einen Bericht geschrieben.
+                            Darin habe ich meine Erfahrungen aufgeschrieben.</p>
+                        <div class="timeline-tags">
+                            <span>📝 Berichte</span>
+                            <span>📋 Dokumentation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">IBA-Zeit</span>
+                        <h3>Entscheidung für V-Zug</h3>
+                        <p>Nach vielen Schnupperlehren habe ich mich für V-Zug entschieden.
+                            Der Beruf Anlagenführer EFZ passt gut zu mir.</p>
+                        <div class="timeline-tags">
+                            <span>🏭 V-Zug</span>
+                            <span>⚙️ Anlagenführer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item timeline-current animate-on-scroll">
+                    <div class="timeline-dot dot-active"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aktuell</span>
+                        <h3>Lehrstelle bei V-Zug gefunden! 🎉</h3>
+                        <p>Ich habe eine Lehrstelle als <strong>Anlagenführer EFZ</strong> bei <strong>V-Zug</strong>
+                            bekommen! Jetzt lerne ich für den Deutsch-B1-Abschluss und mache mich bereit für
+                            die Lehre.</p>
+                        <div class="timeline-tags">
+                            <span>🎯 Lehrstelle gesichert</span>
+                            <span>🏭 V-Zug</span>
+                            <span>⚙️ Anlagenführer EFZ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ====== MEINE ZIELE ====== -->
+    <section class="section section-ziele" id="ziele" aria-labelledby="ziele-title">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">03</span>
+                <h2 class="section-title" id="ziele-title">Meine <span class="gradient-text">Ziele</span></h2>
+                <p class="section-subtitle">Was ich erreichen möchte und wohin mein Weg führt</p>
+            </div>
+
+            <div class="ziele-grid">
+                <!-- Kurzfristige Ziele -->
+                <div class="ziel-card ziel-short animate-on-scroll">
+                    <div class="ziel-icon">🎯</div>
+                    <h3>Kurzfristige Ziele</h3>
+                    <p class="ziel-timeframe">Bis Ende IBA</p>
+                    <ul class="ziel-list">
+                        <li>
+                            <span class="ziel-check">●</span>
+                            <span>Lehrvertrag bei V-Zug unterschreiben</span>
+                        </li>
+                        <li>
+                            <span class="ziel-check">○</span>
+                            <span>Deutsch B1-Prüfung erfolgreich abschliessen</span>
+                        </li>
+                        <li>
+                            <span class="ziel-check">○</span>
+                            <span>Gute Noten im aktuellen Semester erreichen</span>
+                        </li>
+                        <li>
+                            <span class="ziel-check">●</span>
+                            <span>Dieses Portfolio fertigstellen</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Langfristige Ziele -->
+                <div class="ziel-card ziel-long animate-on-scroll">
+                    <div class="ziel-icon">🌟</div>
+                    <h3>Langfristige Ziele</h3>
+                    <p class="ziel-timeframe">In den nächsten Jahren</p>
+                    <ul class="ziel-list">
+                        <li>
+                            <span class="ziel-check">○</span>
+                            <span>Ausbildung als Anlagenführer EFZ bei V-Zug abschliessen</span>
+                        </li>
+                        <li>
+                            <span class="ziel-check">○</span>
+                            <span>Meine schulischen Leistungen weiter verbessern</span>
+                        </li>
+                        <li>
+                            <span class="ziel-check">○</span>
+                            <span>Unabhängigkeit und finanzielle Stabilität</span>
+                        </li>
+                        <li>
+                            <span class="ziel-check">○</span>
+                            <span>Deutsch auf C1-Niveau verbessern</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== KONTAKT ====== -->
+    <section class="section section-kontakt" id="kontakt" aria-labelledby="kontakt-title">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">04</span>
+                <h2 class="section-title" id="kontakt-title">Mein <span class="gradient-text">Kontakt</span></h2>
+                <p class="section-subtitle">Du möchtest mich erreichen? Schreib mir gerne!</p>
+            </div>
+            <div class="kontakt-grid animate-on-scroll">
+                <a href="mailto:sercan.ueren@stud.iba-cham.ch" class="kontakt-card">
+                    <div class="kontakt-icon">✉️</div>
+                    <h3>E-Mail</h3>
+                    <p>sercan.ueren@stud.iba-cham.ch</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== DANKE CARD ====== -->
+    <section class="section section-danke" id="danke" aria-labelledby="danke-title">
+        <div class="container">
+            <div class="danke-card animate-on-scroll" id="dankeCard">
+                <div class="danke-envelope">
+                    <div class="danke-card-inner">
+                        <div class="danke-star">⭐</div>
+                        <h2 id="danke-title">Vielen Dank!</h2>
+                        <p>Du hast mein gesamtes Portfolio angesehen.<br>Das bedeutet mir sehr viel!</p>
+                        <div class="danke-divider"></div>
+                        <p class="danke-small">Als kleines Dankeschön kannst du dir ein persönliches Zertifikat
+                            erstellen:</p>
+                        <button class="danke-btn" id="openCertBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20"
+                                height="20">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                            </svg>
+                            Mein Zertifikat erstellen
+                        </button>
+                        <p class="danke-signature">— Sercan Üren</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CERTIFICATE MODAL ====== -->
+    <div class="cert-overlay" id="certOverlay" role="dialog" aria-modal="true" aria-label="Zertifikat erstellen">
+        <div class="cert-modal">
+            <!-- Step 1: Name Input -->
+            <div class="cert-step cert-step-input" id="certStepInput">
+                <button class="cert-close" id="certClose">&times;</button>
+                <h3>Dein persönliches Zertifikat</h3>
+                <p>Gib deinen Namen ein und erhalte ein Zertifikat als Dankeschön:</p>
+                <input type="text" id="certNameInput" class="cert-input" placeholder="Dein Name..." autocomplete="off">
+                <button class="cert-submit" id="certSubmit">Zertifikat erstellen</button>
+            </div>
+            <!-- Step 2: Certificate Display -->
+            <div class="cert-step cert-step-display" id="certStepDisplay" style="display:none;">
+                <button class="cert-close" id="certClose2">&times;</button>
+                <div class="cert-paper" id="certPaper">
+                    <div class="cert-border">
+                        <div class="cert-content">
+                            <div class="cert-top-ornament">✦ ✦ ✦</div>
+                            <h2 class="cert-title">ZERTIFIKAT</h2>
+                            <p class="cert-subtitle">der Anerkennung</p>
+                            <div class="cert-line"></div>
+                            <p class="cert-for">Hiermit wird bestätigt, dass</p>
+                            <h3 class="cert-name" id="certDisplayName"></h3>
+                            <div class="cert-line"></div>
+                            <p class="cert-desc">das gesamte Portfolio von Sercan Üren<br>vollständig angesehen hat.</p>
+                            <p class="cert-desc">Vielen Dank für dein Interesse und deine Zeit!</p>
+                            <div class="cert-footer-area">
+                                <div class="cert-date" id="certDate"></div>
+                                <div class="cert-signed">
+                                    <div class="cert-sig-line"></div>
+                                    <p>Sercan Üren</p>
+                                </div>
+                            </div>
+                            <div class="cert-bottom-ornament">✦ ✦ ✦</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="cert-download" id="certDownload">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    Als PDF herunterladen
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2026 — Sercan's Portfolio</p>
+                <p class="footer-subtext">Mit ❤️ erstellt</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

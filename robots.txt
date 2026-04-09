@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /*.pdf$
+
+User-agent: ia_archiver
+Disallow: /
+
+Sitemap: https://sercan511.github.io/sitemap.xml
